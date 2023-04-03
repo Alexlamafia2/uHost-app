@@ -10,7 +10,7 @@ var mobileNav = document.querySelector(".mobile-nav");
 
 for (var i = 0; i < selectPlanButton.length; i++) {
   selectPlanButton[i].addEventListener("click", function () {
-    modal.style.display = "block";
+    modal.classList.add("open");
     backdrop.style.display = "block";
   });
 }
